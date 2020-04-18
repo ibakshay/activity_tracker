@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v1
       - uses: JasonEtco/activity-box@master
         env:
-          gisttoken: ${{ secrets.gisttoken}}
+          GH_PAT: ${{ secrets.gisttoken}}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USERNAME: ibakshay
           GIST_ID: 5dd3b1f4f17a57ec4010a751a6d4b762
